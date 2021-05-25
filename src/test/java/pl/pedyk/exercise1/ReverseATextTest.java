@@ -15,6 +15,7 @@ class ReverseATextTest {
     @ParameterizedTest
     @MethodSource
     void test1(String text, String reverse){
+        //then
         Assertions.assertEquals(reverse, reverseAText(text));
     }
 
